@@ -3,7 +3,12 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 20xp;
+  height: 50px;
   border-bottom: 1px solid lightgrey;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 999;
   .left {
     display: flex;
     align-items: center;
@@ -35,10 +40,10 @@
         gap: 10px;
         font-weight: 500;
         img {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            object-fit: cover;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          object-fit: cover;
         }
         span {
         }

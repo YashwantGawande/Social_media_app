@@ -10,7 +10,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="navbar">
       <div className="left">
         <Link to="/" style={{ textDecoration: "none" }}>
           <span>Social</span>
@@ -28,7 +28,7 @@ const Navbar = () => {
         <EmailOutlinedIcon />
         <NotificationsOutlinedIcon />
         <div className="user">
-          {}
+          <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="profile-logo"/>
           <span>John doe</span>
         </div>
       </div>
